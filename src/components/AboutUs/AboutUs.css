@@ -1,0 +1,39 @@
+.app__aboutus {
+    position: relative;
+    gap: 7rem;
+    
+}
+
+.app__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+
+
+.p{
+    text-align: justify;
+}
+.app__aboutus-content_about p {
+    margin: 2rem 0;
+    color: var(--color-black);
+
+}
+
+@media screen and (min-width: 2000px) {
+    .app__aboutus-content_about p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus-content {
+        flex-direction: column;
+    }
+
+}
+
